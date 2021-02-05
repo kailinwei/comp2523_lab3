@@ -23,6 +23,18 @@ export class CustomizedMap {
     })
 
     const contentString = pinnable.infoWindow
+
+    // -----i try to import firstNames/lastNames from Student.ts and internship.ts accordingly, 
+    //------but not succesfful:
+
+
+    // if (typeof pinnable === "Student" ){
+    //   const contentString = `Hello, ${pinnable.firstName} ${pinnable.lastName}!
+    //    \n this is your address:\n${pinnable.infoWindow} `;
+    // } ;else{
+    //   const contentString = `Welcome to ${pinnable.businessName}! 
+    //   \n  Our address is:\n${pinnable.infoWindow} `
+    // }
   
     
     const infowindow = new google.maps.InfoWindow({
